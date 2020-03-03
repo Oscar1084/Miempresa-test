@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Electronic Automation Web</title>
+
+    <!--Inicio del  SLIDERS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!-- Fin del SLIDERS -->
+
+<!-- Font Awesome:ICONOS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Mis estilos -->
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+ <header>
+        <div class="header-inner">
+            <a href="#" id="logo">
+           <img src="img/pics/miLogo.png" alt="Faztweb.com">
+            </a>
+
+         <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+
+           <ul>
+             <li><a href="index.html" class="current">Inicio</a></li>
+             <li><a href="#services">Servicios</a></li>
+             <li><a href="#contact">Contacto</a></li>
+           </ul>
+
+
+        </nav>
+
+        </div>
+      </header>
+
+
+      <!-- SLIDER -->
+
+   <div id="slide-wrap">
+     <section class="slider">
+       <ul class="EA01">
+         <li><img src="img/slider/EA01.png" alt="Slider uno"></li>
+         <li><img src="img/slider/EA04.jpg" alt="Slider dos"></li>
+         <li><img src="img/slider/EA02.jpg" alt="Slider tres"></li>
+         <li><img src="img/slider/EA03.jpg" alt="Slider tres"></li>
+       </ul>
+       </section>
+    </div>
+
+     <div class="clearfix-padding"></div>
+
+      <!-- Servicios -->
+
+    <div class="one-two-first" id="services">
+      <h3>PLC's</h3>
+      <img src="img/pics/PLC02.png" alt="">
+      <p>Programamos PLC de las marcas Allen bradley (Micrologix,SLC 500 y Compact Logix) y Siemens (Logo, S7 1200)</p>
+      <div>
+        <h4>Aplicaciones</h4>
+        <ul>
+            <li><i class="fa fa-check-circle"></i>Cintas transportadoras</li>
+            <li><i class="fa fa-check-circle"></i>Bombas y ventiladores centrifugos para control de caudal</li>
+            <li><i class="fa fa-check-circle"></i>Ascensores y elevadores</li>
+            <li><i class="fa fa-check-circle"></i>Maquinas textiles</li>
+            <li><i class="fa fa-check-circle"></i>Extrusoras</li>
+            <li><i class="fa fa-check-circle"></i>Compresoras de aire</li>
+            <li><i class="fa fa-check-circle"></i>Bombas de extraccion</li>
+            <li><i class="fa fa-check-circle"></i>Etc</li>
+        </ul>
+
+      </div>
+
+
+    </div>
+
+    <div class="one-two-first">
+      <h3>Variadores de Frecuencia</h3>
+      <img src="img/pics/VFD01.jpg" alt="">
+      <p>Programamos variadores de frecuencia de la marca Schneider Electric, Allen Bradley, Siemens, WEG entre otros</p>
+
+        <div>
+          <h4>Aplicaciones</h4>
+          <ul>
+              <li><i class="fa fa-check-circle"></i>Cintas transportadoras</li>
+              <li><i class="fa fa-check-circle"></i>Bombas y ventiladores centrifugos para control de caudal</li>
+              <li><i class="fa fa-check-circle"></i>Ascensores y elevadores</li>
+              <li><i class="fa fa-check-circle"></i>Maquinas textiles</li>
+              <li><i class="fa fa-check-circle"></i>Extrusoras</li>
+              <li><i class="fa fa-check-circle"></i>Compresoras de aire</li>
+              <li><i class="fa fa-check-circle"></i>Bombas de extraccion</li>
+              <li><i class="fa fa-check-circle"></i>Etc</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    <div class="clearfix-padding"></div>
+
+    <div class="one-two-second">
+      <h3>Paneles HMI</h3>
+      <img src="img/pics/hmi05.jpg" alt="">
+      <!-- <p>Programamos Paneles HMI de las marcas Siemens, Allen Bradley entre otros</p> -->
+      <p>Programamos Paneles HMI de la marca Siemens.</p>
+    </div>
+
+
+    <div class="one-two-second">
+      <h3>Esquemas Electricos</h3>
+      <img src="img/pics/Esquema02.png" alt="">
+      <p>Diseño de esquemas de fuerza y esquemas  de control</p>
+
+    </div>
+
+
+
+
+     <footer class="second-footer" id="contact">
+      <p> &copy; Mas informacion al correo: oscarmecatronico@gmail.con</p>
+    </footer>
+
+
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.EA01').bxSlider({
+        mode: 'fade',
+      });
+      $('.EA04').bxSlider({
+        mode: 'fade',
+      });
+      $('.EA02').bxSlider({
+        mode: 'fade',
+      });
+        $('.EA03').bxSlider({
+        mode: 'fade',
+      });
+
+    });
+  </script>
+
+</body>
+</html>
