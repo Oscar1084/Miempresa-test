@@ -12,7 +12,7 @@ body {
 
 p {
   color: #524c56;
-  font-size: 160%;
+  font-size: 130%; /* cambiar*/
   line-height: 155%;
   padding: 3%;
   text-indent: 2%;
@@ -54,7 +54,7 @@ header {
 header #logo img{
   margin: 20px;
   float: left;
-  width: 50px;
+  width: 100px;
 }
 nav {
     float: right;
@@ -98,8 +98,9 @@ h4{/*esto agregue*/
      
 }
 .one-two-first li{
+
   line-height: 150%;
-     color: #524c56;
+  color: #524c56;
     
 }
 
@@ -120,11 +121,17 @@ nav ul li a {
     margin: 5% 5%;
 
   }
+  
 
   .clearfix-padding {
     clear: both;
     padding: 2%;
 
+  }
+
+  .servicio1{/*agregue*#48dbfb*/
+    background-color: #48dbfb;
+    margin-bottom: 20px;
   }
 
   footer {
@@ -140,6 +147,8 @@ nav ul li a {
     font-size: 160%;
     line-height: 155%;
 }
+
+/* Para dispositivos moviles */
 
 
 @media screen and (max-width: 768px){
